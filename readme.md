@@ -50,9 +50,14 @@ Select your version. Rename the file/build/(version).dylib to *opencv.rebx*,
 and copy the *opencv.rebx* file to */Users/your_username/.rebol/modules/* (default location). You can also copy *opencv.rebx* file in each samples directory (not recommanded).
 
 
-## Attention! 
+## Supported Operating Systems 
 
-OpenCV extension runs only on macOS, but on both intel or ARM architectures. Code is developed under macOS (Sonoma 14.6.1) on ARM M1 processor (and also tested on ARM M2 processor).
+OpenCV extension initially runs on macOS, on both intel or ARM architectures. My code is developed under macOS (Sonoma 14.6.1) on ARM M1 processor (and also tested on ARM M2 processor).
+
+Oldes has also successfully tested OpenCV extension with Windows.
+
+The code will have to be tested with Linux.
+
 
 
 
