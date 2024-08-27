@@ -3,7 +3,7 @@ Various samples for playing with OpenCV extension.
 Most of the examples are inspired by Oldes' examples code. Thanks to Oldes for sharing these samples. 
 Required images are in /images directory.
 
-## You need a recent version of Oldes's R3 
+##You need a recent version of Oldes's R3 
 [https://github.com/Oldes/Rebol3/releases
 ](https://github.com/Oldes/Rebol3/releases)
 
@@ -37,7 +37,7 @@ And of course, you need OpenCV extension to play with images.
 ](https://github.com/Oldes/Rebol-OpenCV)
 
 
-### How to compile OpenCV extension
+###How to compile OpenCV extension
 Open a terminal session. Go to the Rebol-OpenCV  directory and run the command s*iskin Rebol-OpenCV.nest*.
 
 Found eggs:
