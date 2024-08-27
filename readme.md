@@ -15,7 +15,7 @@ A very mature version of Rebol 3, maintained by Oldes, a well-known developer.
 ](https://github.com/Siskin-framework/Builder)
 
 A fabulous based command line utility useful for compilation of various projects, including compiling R3 form sources. Siskin is used to compile opencv extension.
-###How to compile Siskin
+### How to compile Siskin
 Open a terminal session. 
 Go to the Siskin directory (currently Builder-0.17.0)
 and run the command *r3 siskin.r3 rebol/Siskin*.
@@ -37,7 +37,7 @@ And of course, you need OpenCV extension to play with images.
 ](https://github.com/Oldes/Rebol-OpenCV)
 
 
-###How to compile OpenCV extension
+### How to compile OpenCV extension
 Open a terminal session. Go to the Rebol-OpenCV  directory and run the command s*iskin Rebol-OpenCV.nest*.
 
 Found eggs:
