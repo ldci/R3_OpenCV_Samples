@@ -3,14 +3,14 @@ Various samples for playing with OpenCV extension.
 Most of the examples are inspired by Oldes' examples code. Thanks to Oldes for sharing these samples. 
 Required images are in /images directory.
 
-##You need a recent version of Oldes's R3 
+## You need a recent version of Oldes's R3 
 [https://github.com/Oldes/Rebol3/releases
 ](https://github.com/Oldes/Rebol3/releases)
 
 A very mature version of Rebol 3, maintained by Oldes, a well-known developer.
 
 
-##You need also
+## You need also
 [https://github.com/Siskin-framework/Builder
 ](https://github.com/Siskin-framework/Builder)
 
