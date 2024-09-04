@@ -23,7 +23,7 @@ with cv [
     	imshow/name :thresh "Range"
     ]
 	print "Any Key to close"
-	img: imread %../images/lena.jpg			;--read image as matrix
+	img: imread %../images/mandrill.jpg			;--read image as matrix
 	thresh: Matrix :img						;--new matrix
 	imshow/name :img "Source"
 	imshow/name :thresh "Range"

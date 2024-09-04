@@ -1,7 +1,14 @@
 # Rebol 3 OpenCV extension
 Various samples for playing with OpenCV extension.
 Most of the examples are inspired by Oldes' examples code. Thanks to Oldes for sharing these samples. 
-Required images are in /images directory.
+Required images are from /images directory.
+
+## New rules about Lena picture use
+Thanks to Gurzgri for the link and information.
+
+[Lena picture use](https://www.theguardian.com/technology/2024/mar/31/tech-publisher-bans-playboy-centrefold-test-image-from-its-journals)
+
+All Lena pictures are suppressed in /images folder.
 
 ## You need a recent version of Oldes's R3 
 [https://github.com/Oldes/Rebol3/releases
@@ -57,7 +64,6 @@ OpenCV extension initially runs on macOS, on both intel or ARM architectures. My
 Oldes has also successfully tested OpenCV extension with Windows.
 
 The code will have to be tested with Linux.
-
 
 
 

@@ -3,7 +3,7 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-	filename: %../images/lena.jpg
+	filename: %../images/mandrill.jpg
 	img: imread/with filename IMREAD_UNCHANGED
 	mat1: convertTo img none CV_8U 2 0		;increase the contrast (double)
 	mat2: convertTo img none CV_8U 0.5 0	;decrease the contrast (half)

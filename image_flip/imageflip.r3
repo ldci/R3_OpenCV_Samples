@@ -4,7 +4,7 @@ Rebol [
 ;--based on Oldes's sample
 cv: import opencv
 with cv [
-	filename: %../images/lena.tiff
+	filename: %../images/mandrill.jpg
 	mat: imread/with filename 1	;--read as color image
 	imshow/name mat filename 	;--display the image in the window with file name's title
 	moveWindow filename 300x50	;--move window

@@ -3,7 +3,7 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-	img: imread %../images/lena.tiff	;--read image as matrix
+	img: imread %../images/mandrill.jpg	;--read image as matrix
     dst1:  Matrix img					;--make a new matrix
     dst2:  Matrix img					;--make a new matrix
     dst3:  Matrix img					;--make a new matrix

@@ -15,7 +15,7 @@ with cv [
     	imshow/name :mat "Source"
     ]
 
-	filename: %../images/lena.jpeg					;--file name
+	filename: %../images/mandrill.jpg					;--file name
 	img: imread/with filename IMREAD_UNCHANGED		;--load image as is
 	imshow/name img "Source"						;--show image 
 	moveWindow "Source"  260x0						;--move image 			

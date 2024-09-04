@@ -3,13 +3,12 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-	img: imread/with %../images/lena.jpg IMREAD_GRAYSCALE
+	img: imread/with %../images/taj-bfilter.jpg IMREAD_GRAYSCALE
 	imshow/name :img "Source"
 	moveWindow "Source" 100x0
 	print get-property img MAT_TYPE
 	vec: get-property img MAT_IMAGE
 	size: get-property img MAT_SIZE
-	
 	print ["Mean:" mean img]
 	print ["Mini Maxi:" minMaxLoc img]
 	mini: first  minMaxLoc img
@@ -27,7 +26,7 @@ with cv [
 	;change/dup at vec maxLoc red 10x10
 	gs: Matrix :vec
 	imshow/name gs "Min Max"
-	moveWindow "Min Max" 400x0
+	moveWindow "Min Max" 420x0
 	print get-property gs MAT_TYPE
 	waitKey 0
 ]

@@ -3,7 +3,7 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-	img: imread/with %../images/lena.jpg IMREAD_GRAYSCALE
+	img: imread/with %../images/mandrill.jpg IMREAD_GRAYSCALE
 	namedWindow  srcImg: "Source"
 	namedWindow  testImg: "Result"
 	;--1 channel image

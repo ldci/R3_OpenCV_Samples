@@ -12,7 +12,7 @@ with cv [
     	mat: convertTo :img none CV_8U val 0
     	imshow/name :mat "Contrast"
     ]
-	filename: %../images/lena.jpeg
+	filename: %../images/mandrill.jpg
 	img: imread/with filename IMREAD_UNCHANGED
 	imshow/name img  "Contrast" 
 	moveWindow "Contrast"  260x0

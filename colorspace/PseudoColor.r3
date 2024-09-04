@@ -11,7 +11,7 @@ wB: 0.114
 
 cv: import opencv
 with cv [
-	img: imread/with %../images/lena.jpg IMREAD_COLOR
+	img: imread/with %../images/mandrill.jpg IMREAD_COLOR
 	namedWindow  srcImg: "Source"
 	namedWindow  testImg: "Grayscale"
 	print ["mat size    :" size: get-property img MAT_SIZE]

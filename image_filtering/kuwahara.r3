@@ -4,7 +4,7 @@ Rebol [
 ;--https://en.wikipedia.org/wiki/Kuwahara_filter
 cv: import opencv
 with cv [
-    src: imread/with "../images/lena.jpg" -1; IMREAD_UNCHANGED
+    src: imread/with "../images/mandrill.jpg" -1; IMREAD_UNCHANGED
     dst: Matrix :src
     ;--using Rebol vector type for the kernel
     vec: #(f32! [-0.5 1.5 -0.5

@@ -4,7 +4,7 @@ Rebol [
 ;-- see https://docs.opencv.org/3.4/d4/dbd/tutorial_filter_2d.html 
 cv: import opencv
 with cv [
-    src: imread "../images/lena.jpg"
+    src: imread "../images/mandrill.jpg"
     dst: Matrix :src
     ;--using Rebol vector for the kernel
     vec: #(f32! [

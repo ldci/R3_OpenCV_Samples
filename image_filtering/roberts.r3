@@ -3,7 +3,7 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-    src: imread "../images/lena.jpg"
+    src: imread "../images/mandrill.jpg"
     ;cvtColor src src COLOR_BGR2GRAY
     dst: Matrix :src
     mx1: Matrix :src

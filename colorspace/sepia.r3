@@ -4,7 +4,7 @@ Rebol [
 ;--based on Oldes's sample
 cv: import opencv
 with cv [
-    src: imread "../images/lena.jpg"
+    src: imread "../images/mandrill.jpg"
     ; using a binary for the kernel, but it should be possible
     ; to use vector directly later once implemented!
     ; see sepia2.r

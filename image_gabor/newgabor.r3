@@ -4,11 +4,11 @@ Rebol [
 ;--Oldes's code 
 cv: import opencv
 with cv [
-    src: imread %../images/lena.jpg
+    src: imread %../images/mandrill.jpg
     size: get-property :src MAT_SIZE
     gray: cvtColor :src none COLOR_BGR2GRAY
 
-    num-filters: 32
+    num-filters: 16
     sigma: 1.5    ;; The bandwidth or sigma controls the overall size of the Gabor envelope.
     theta: 0      ;; The theta controls the orientation of the Gabor function.
     lambd: 60     ;; The wavelength governs the width of the strips of the Gabor function.

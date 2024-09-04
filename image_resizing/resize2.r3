@@ -3,7 +3,7 @@ REBOL [
 ]
 cv: import opencv 
 with cv [
-	src: imread/image "../images/lena.jpg" 
+	src: imread/image "../images/mandrill.jpg" 
 	reducedSize: src/size / 2
 	namedWindow win: "Window"
 	imshow/name src win

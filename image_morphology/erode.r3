@@ -5,7 +5,7 @@ Rebol [
 kSize: 3
 cv: import opencv
 with cv [
-    src: imread "../images/lena.jpg"
+    src: imread "../images/mandrill.jpg"
     namedWindow win1: "Source"
     namedWindow win2: "Erosion"
     moveWindow win1 0x0

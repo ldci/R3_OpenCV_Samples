@@ -4,7 +4,7 @@ Rebol [
 ;--invert requires 32 or 64 1 channel image 
 cv: import opencv
 with cv [
-	img: imread/with %../images/lena.jpg IMREAD_GRAYSCALE
+	img: imread/with %../images/mandrill.jpg IMREAD_GRAYSCALE
 	size: get-property img MAT_SIZE
 	src: Matrix :img dst: Matrix :img
 	convertTo :img :src CV_64F 1 / 255 0

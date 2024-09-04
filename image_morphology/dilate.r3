@@ -5,7 +5,7 @@ Rebol [
 cv: import opencv
 kSize: 3
 with cv [
-    src: imread "../images/lena.jpg"
+    src: imread "../images/mandrill.jpg"
     namedWindow win1: "Source"
     namedWindow win2: "Dilatation"
     moveWindow win1 0x0

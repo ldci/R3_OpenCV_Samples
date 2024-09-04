@@ -5,7 +5,7 @@ cv: import opencv
 with cv [
 	alpha: 1.0										;--scale factor
 	beta: 64										;--delta added to the scaled values
-	filename: %../images/lena.jpg					;--file name
+	filename: %../images/mandrill.jpg					;--file name
 	img: imread/with filename IMREAD_UNCHANGED		;--load image as is
 	mat1: convertTo img none CV_8U alpha beta		;--increase the brightness by 64 
 	mat2: convertTo img none CV_8U alpha negate beta;--decrease the brightness by 64 

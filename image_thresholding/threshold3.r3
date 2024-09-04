@@ -5,7 +5,7 @@ Rebol [
 cv: import opencv
 with cv [
 	tValue: 0
-	img: imread %../images/lena.jpg
+	img: imread %../images/mandrill.jpg
 	? img
 	gray: cvtColor img none COLOR_RGB2GRAY
     namedWindow win: "Thresholding"

@@ -3,7 +3,7 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-    img: imread %../images/lena.jpg
+    img: imread %../images/mandrill.jpg
     roi: selectRoi :img           ;; returns block with 2 pairs (position and size)
     mat: Matrix [:img :roi]       ;; creates the new sub-image
     print ["Roi position and size:" roi]

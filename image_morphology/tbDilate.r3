@@ -12,11 +12,11 @@ kSize: 2x2
 shape: 0
 cv: import opencv
 with cv [
-    src: imread "../images/lena.jpeg"
+    src: imread "../images/mandrill.jpg"
     namedWindow win1: "Source"
     namedWindow win2: "Dilatation"
     moveWindow win1 0x0
-    moveWindow win2 520x0
+    moveWindow win2 320x0
     
     showResult: does [
     	kernel: getStructuringElement shape kSize -1x-1 	

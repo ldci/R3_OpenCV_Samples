@@ -6,7 +6,7 @@ Rebol [
 
 cv: import opencv
 with cv [
-    src: imread/with  "../images/lena.jpg" IMREAD_UNCHANGED
+    src: imread/with  "../images/mandrill.jpg" IMREAD_UNCHANGED
     dst1: Matrix :src
     dst2: Matrix :src
     dst3: Matrix :src

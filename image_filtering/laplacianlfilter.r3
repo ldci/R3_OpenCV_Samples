@@ -11,11 +11,11 @@ delta: 0
 cv: import opencv
 with cv [
 	ddepth: CV_16S
-	img: imread %../images/lena.jpg					;--read image as matrix
+	img: imread %../images/mandrill.jpg					;--read image as matrix
 	gray: Matrix img								;--make grayscale matrix
     dst:  Matrix img								;--make destination matrix
 	namedWindow  src: "Source"						;--create source window
-	namedWindow  lap: "Laplacian"					;--create destination windows
+	namedWindow  lap: "Laplacian"					;--create destination window
 	moveWindow src 0x10								;--move source window
 	moveWindow lap 260x10							;--move destination window
 	GaussianBlur img img 3x3 0 0					;--reduce noise with a Gaussian filter

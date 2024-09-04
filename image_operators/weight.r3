@@ -3,8 +3,8 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-	filename1: %../images/lena.jpg
-	filename2: %../images/baboon.jpg
+	filename1: %../images/mandrill.jpg
+	filename2: %../images/binaire.png
 	mat1: imread/with filename1 IMREAD_COLOR
 	mat2: imread/with filename2 IMREAD_COLOR
 	dst: addWeighted mat1 0.5 mat2 0.5 0 none

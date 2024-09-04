@@ -3,7 +3,7 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-	filename: %../images/lena.jpg
+	filename: %../images/mandrill.jpg
 	mat: 		imread/with filename 1
 	binData: 	get-property mat MAT_BINARY
 	nc: 		get-property mat MAT_CHANNELS

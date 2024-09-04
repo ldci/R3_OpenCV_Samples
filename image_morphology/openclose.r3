@@ -11,7 +11,7 @@ iter: 3
 
 cv: import opencv									;--import Rebol-OpenCV extension
 with cv [
-    src: imread "../images/lena.jpg"				;--source image
+    src: imread "../images/mandrill.jpg"				;--source image
     namedWindow win1: "Source"						;--create window 1
     namedWindow win2: "Open"						;--create window 2
     namedWindow win3: "Close"						;--create window 3

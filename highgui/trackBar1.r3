@@ -31,7 +31,7 @@ maps: [
 n: (length? maps) - 1							;--Rebol is one-based
 
 with cv [
-    imshow src: imread "../images/lena.jpg" 	;--load and display the original
+    imshow src: imread "../images/mandrill.jpg" 	;--load and display the original
     res: Matrix :src                     		;--matrix to display modified source
     onTrackbar: func[
     	"Function used as a callback" 

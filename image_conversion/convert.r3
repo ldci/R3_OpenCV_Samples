@@ -3,7 +3,7 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-	filename: %../images/lena.jpg
+	filename: %../images/mandrill.jpg
 	img: imread/with filename IMREAD_UNCHANGED
 	mat1: convertTo img none CV_16U 255 0
 	mat2: convertTo img none CV_32F 1 / 255 0

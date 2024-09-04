@@ -15,7 +15,7 @@ iter: 1				;--number of iterations
 cv: import opencv
 ;--based on Oldes's samples
 with cv [
-    src: imread "../images/lena.jpg"
+    src: imread "../images/mandrill.jpg"
     namedWindow win1: "Canny"
     namedWindow win2: "Canny dilated"
     moveWindow win1 0x0

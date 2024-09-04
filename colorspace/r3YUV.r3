@@ -7,7 +7,7 @@ Rebol [
 
 cv: import opencv
 with cv [
-	img: imread/with %../images/lena.jpg IMREAD_COLOR
+	img: imread/with %../images/mandrill.jpg IMREAD_COLOR
 	namedWindow  srcImg: "Source"
 	size: get-property img MAT_SIZE
 	dst: Matrix [:size CV_8UC3]

@@ -5,7 +5,7 @@ Rebol [
 ;--pgm images test
 cv: import opencv
 with cv [
-	filename: %../images/lena.pgm
+	filename: %../images/sample.pgm
 	mat: imread filename
 	print ["mat size    :" size: get-property mat MAT_SIZE]
     print ["mat type    :" type: get-property mat MAT_TYPE]

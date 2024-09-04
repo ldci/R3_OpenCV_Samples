@@ -3,7 +3,7 @@ Rebol [
 ]
 ;--based on Oldes's samples
 ;--jpeg images test
-filename: %../images/lena.jpg
+filename: %../images/mandrill.jpg
 cv: import opencv
 with cv [
 	mat: imread filename

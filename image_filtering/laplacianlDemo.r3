@@ -4,7 +4,7 @@ Rebol [
 cv: import opencv
 with cv [
 	kSize: 1								;--Kernel size
-	img: imread %../images/lena.tiff		;--read image as matrix
+	img: imread %../images/mandrill.jpg		;--read image as matrix
     dst:  Matrix img						;--make destination matrix
 	namedWindow  src: "Source"				;--create source window
 	namedWindow  lap: "Laplacian"			;--create destination windows

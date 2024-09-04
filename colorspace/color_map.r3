@@ -2,7 +2,7 @@
 Rebol [
 ]
 
-fileName: "../images/lena.jpg"
+fileName: "../images/mandrill.jpg"
 cv: import opencv
 
 

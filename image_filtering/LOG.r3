@@ -13,7 +13,7 @@ knl2: #(f32! [0.0 0.0 -1.0 0.0 0.0
 
 cv: import opencv										;--use opencv extension
 with cv [
-	img: imread %../images/lena.jpg						;--read image as matrix
+	img: imread %../images/mandrill.jpg						;--read image as matrix
 	if grayscale? [cvtColor :img :img COLOR_RGB2GRAY]	;--grayscale image
 	dst1: Matrix :img									;--destination matrix 1
 	dst2: Matrix :img									;--destination matrix 2

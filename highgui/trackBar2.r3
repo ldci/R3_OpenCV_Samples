@@ -3,7 +3,7 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-	imshow src: imread/with "../images/lena.jpg" IMREAD_GRAYSCALE 	;--load and display the original as grayscale
+	imshow src: imread/with "../images/mandrill.jpg" IMREAD_GRAYSCALE 	;--load and display the original as grayscale
     res: Matrix :src                    								;--used to display modified source
     onTrackbar: func [val [integer!]][
     	threshold :src :res :val 255 THRESH_TOZERO						;--to zero threshold image (0..255) 

@@ -4,7 +4,7 @@ Rebol [
 ;--read and display a basic 4-channel TIFF image
 cv: import opencv
 with cv [          
-	mat: imread/with %../images/lena.tiff -1
+	mat: imread/with %../images/binaire.tiff -1
 	print ["mat size    :" size: get-property mat MAT_SIZE]
     print ["mat type    :" type: get-property mat MAT_TYPE]
     print ["mat depth   :" depth: get-property mat MAT_DEPTH]

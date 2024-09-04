@@ -4,7 +4,7 @@ REBOL [
 
 cv: import opencv
 with cv [
-	tmp: imread/image %../images/baboon.jpg  ;--read as a Rebol image
+	tmp: imread/image %../images/mandrill.jpg  ;--read as a Rebol image
 	img: Matrix :tmp
 	gs: Matrix :tmp
 	

@@ -4,7 +4,7 @@ Rebol [
 ;--Oldes's sample
 cv: import opencv
 with cv [
-    img: imread "../images/lena.jpg"
+    img: imread "../images/mandrill.jpg"
     roi: [100x100 100x100]
     mat: Matrix [:img :roi]
     imshow/name mat "Original sub-image"

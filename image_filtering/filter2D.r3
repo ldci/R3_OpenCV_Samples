@@ -4,7 +4,7 @@ Rebol [
 ;-- see https://docs.opencv.org/3.4/d4/dbd/tutorial_filter_2d.html 
 cv: import opencv
 with cv [
-    src: imread "../images/lena.jpg"					;--use your own image
+    src: imread "../images/mandrill.jpg"				;--use your own image
     dst: Matrix :src									;--create matrices from image
     anchor: -1x-1										;--kernel center 						
     delta: 0.0											;--default value

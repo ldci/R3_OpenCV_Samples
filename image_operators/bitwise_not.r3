@@ -3,7 +3,7 @@ Rebol [
 ]
 cv: import opencv
 with cv [
-	filename: %../images/lena.jpg
+	filename: %../images/mandrill.jpg
 	mat: imread/with filename IMREAD_COLOR
 	print ["mat type    :" get-property mat MAT_TYPE]
 	dst: bitwise-not :mat none none
@@ -16,7 +16,7 @@ with cv [
 ]
 
 with cv [
-	src: imread "../images/lena.jpg" 
+	src: imread "../images/mandrill.jpg" 
 	result: bitwise-not src none 
 	imshow :result
 	waitKey 0

@@ -9,7 +9,7 @@ cv: import opencv
 
 with cv [
 	print "Any Key to close"
-	img: imread/with %../images/lena.jpg IMREAD_COLOR
+	img: imread/with %../images/mandrill.jpg IMREAD_COLOR
 	size: get-property img MAT_SIZE
 	vect: get-property img MAT_VECTOR
 	

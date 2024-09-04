@@ -31,7 +31,7 @@ with cv [
     	showResult
     ]
 	
-	img: imread %../images/lena.jpg
+	img: imread %../images/mandrill.jpg
 	imshow/name img "Source"
 	moveWindow  "Source"  100x0
 	namedWindow win: "Thresholding"

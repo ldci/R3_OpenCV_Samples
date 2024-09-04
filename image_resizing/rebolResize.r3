@@ -24,7 +24,7 @@ names: [
 ]
 
 
-img: load %../images/lena.jpg
+img: load %../images/mandrill.jpg
 repeat i length? names [
 	;--the blur factor where > 1 is blurry, < 1 is sharp.
 	blur: random 5

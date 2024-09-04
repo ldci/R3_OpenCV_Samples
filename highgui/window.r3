@@ -4,7 +4,7 @@ Rebol [
 
 cv: import opencv
 with cv [
-	filename: %../images/lena.jpg					;--file name
+	filename: %../images/mandrill.jpg					;--file name
 	img: imread/with filename IMREAD_UNCHANGED		;--load image as is
 	namedWindow "Source" WINDOW_NORMAL				;--name window
 	imshow/name img "Source"						;--show image 
@@ -36,8 +36,10 @@ with cv [
 	waitKey 0
 	;--Full Screen
 	;--These two lines will force the "Source" window to be on top with focus
-	setWindowProperty "Source" WND_PROP_FULLSCREEN WINDOW_FULLSCREEN
+	setWindowProperty "Source" WND_PROP_FULLSCREEN WINDOW_FULLSCREEN 	;-- 1.0
 	waitKey 0
-	setWindowProperty "Source" WND_PROP_FULLSCREEN WINDOW_NORMAL
+	setWindowProperty "Source" WND_PROP_FULLSCREEN WINDOW_NORMAL		;-- 0.0
 	waitKey 0
+	;setWindowProperty "Source" WND_PROP_TOPMOST WINDOW_FULLSCREEN
+	;waitKey 0
 ]

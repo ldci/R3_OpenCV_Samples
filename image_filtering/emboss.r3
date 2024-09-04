@@ -8,7 +8,7 @@ Low contrast areas are replaced by a gray background. See https://en.wikipedia.o
 
 cv: import opencv
 with cv [
-    src: imread/with "../images/lena.jpg" -1
+    src: imread/with "../images/mandrill.jpg" -1
     dst0: Matrix :src
     dst1: Matrix :src
     dst2: Matrix :src
@@ -50,15 +50,15 @@ with cv [
     ;-- create and apply the filters 
     ;print ["Sum of vector must be equal to 0"]
     filter: Matrix [CV_32FC1 3x3 :vec0]
-    filter2D :src :dst0 -1 :filter 0 0	;--same depth as the input image (-1)
+    filter2D :src :dst0 -1 :filter -1x-1 0	;--same depth as the input image (-1)
     filter: Matrix [CV_32FC1 3x3 :vec1]
-    filter2D :src :dst1 -1 :filter 0 0	;--same depth as the input image (-1)
+    filter2D :src :dst1 -1 :filter -1x-1 0	;--same depth as the input image (-1)
     filter: Matrix [CV_32FC1 3x3 :vec2]
-    filter2D :src :dst2 -1 :filter 0 0	;--same depth as the input image (-1)
+    filter2D :src :dst2 -1 :filter -1x-1 0	;--same depth as the input image (-1)
     filter: Matrix [CV_32FC1 3x3 :vec3]
-    filter2D :src :dst3 -1 :filter 0 0	;--same depth as the input image (-1)
+    filter2D :src :dst3 -1 :filter -1x-1 0	;--same depth as the input image (-1)
     filter: Matrix [CV_32FC1 3x3 :vec4]
-    filter2D :src :dst4 -1 :filter 0 0	;--same depth as the input image (-1)
+    filter2D :src :dst4 -1 :filter -1x-1 0	;--same depth as the input image (-1)
     ;--show result
     imshow/name src  "Source"
     imshow/name dst0 "Emboss 0"

@@ -14,7 +14,7 @@ iter: 3				;--number of iterations
 
 cv: import opencv
 with cv [
-    src: imread/with "../images/lena.jpg" IMREAD_COLOR
+    src: imread/with "../images/mandrill.jpg" IMREAD_COLOR
     print ["mat type    :" get-property src MAT_TYPE]
     edges: Canny :src none 80 100						;--Canny filter (single channel 8-bit image)
     result: Matrix :edges								;--new matrix 

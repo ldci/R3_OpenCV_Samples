@@ -2,7 +2,7 @@
 Rebol [
 ]
 ;--Oldes's sample
-filename: %../images/lena.jpg
+filename: %../images/mandrill.jpg
 cv: import 'opencv
 with cv [
 	img: imread/image fileName			;--read as a Rebol image
